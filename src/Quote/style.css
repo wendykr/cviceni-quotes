@@ -1,0 +1,41 @@
+.quotes {
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+    height: 450px;
+    background-image: url('./img/quote-icon.svg'), url('./img/quote-icon.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: 50% 95%, 50% 5%;
+    background-size: 15%, 15%;
+    background-color: #ffffff;
+    border: 1px solid #e6edf7;
+    box-shadow: 2px 2px 7px #e6edf7;
+    line-height: 1.5;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.quotes__text {
+    margin: 0;
+    font-size: 26px;
+    color: #2d1f16;
+}
+
+.quotes__author {
+    margin: 0;
+    font-size: 16px;
+    color: #13529e;
+}
+
+.quotes__author::before {
+    content:"";
+    height: 20px;
+    border: 0;
+    background: #13529e;
+    width: 2px;
+    margin: 0 auto 20px auto;
+    display: block;
+}
